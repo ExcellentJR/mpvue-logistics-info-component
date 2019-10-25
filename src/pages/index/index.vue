@@ -15,17 +15,17 @@ export default {
     return {
       tracesData: [
         {
-          acceptStation: '包裹已被吴亦发同学签收',
+          acceptStation: '包裹已被吴亦发同学签收', // 节点描述
           acceptTime: '2019-10-24 15: 27: 27',
           createTime: '2019-10-24 15: 27: 16',
           id: 63,
           logisId: 35,
-          logisNo: 'sf000999888',
-          platformCode: 'SF',
-          status: 'COMPLETE',
-          phone: '',
-          statusName: '已签收',
-          isMainNode: true
+          logisNo: 'sf000999888', // 物流订单号
+          platformCode: 'SF', // 平台信息
+          status: 'COMPLETE', // 节点状态
+          phone: '', // 电话
+          statusName: '已签收', // 节点标题
+          isMainNode: true // 是否主节点，主节点前方展示icon
         },
         {
           acceptStation: '由派送员蔡小坤同志配送，电话：',

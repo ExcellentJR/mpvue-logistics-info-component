@@ -2,6 +2,9 @@
 
 > A Mpvue/Uni-app component that can show logistics info
 
+## 效果图如下
+![](https://github.com/ExcellentJR/mpvue-logistics-info-component/blob/develop/static/case-img/logistics-track-component.gif)
+
 ## Build Setup
 
 ``` bash
