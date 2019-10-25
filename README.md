@@ -4,36 +4,22 @@
 
 ## 效果图如下
 ![](https://github.com/ExcellentJR/mpvue-logistics-info-component/blob/develop/static/case-img/logistics-track-component.gif)
+  
+### 欢迎Fork改进或者讨论！
 
 ## Build Setup
 
 ``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
+# install dependencies
+npm install
 
-# 安装依赖
-yarn
+# serve with hot reload at localhost:8080
+npm run dev
 
-# 开发时构建
-npm dev
+# build for production with minification
+npm run build
 
-# 打包构建
-npm build
-
-# 指定平台的开发时构建(微信、百度、头条、支付宝)
-npm dev:wx
-npm dev:swan
-npm dev:tt
-npm dev:my
-
-# 指定平台的打包构建
-npm build:wx
-npm build:swan
-npm build:tt
-npm build:my
-
-# 生成 bundle 分析报告
+# build for production and view the bundle analyzer report
 npm run build --report
 ```
 
